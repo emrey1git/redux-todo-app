@@ -1,12 +1,25 @@
-# React + Vite
+# Redux Todo App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bu proje, React ve Redux Toolkit kullanılarak geliştirilmiş bir yapılacaklar listesi (Todo List) uygulamasıdır.
 
-Currently, two official plugins are available:
+## Özellikler
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React ile bileşen tabanlı yapı
+- Redux Toolkit ile global state yönetimi
+- Async thunk ile sahte API'den veri çekme
+- Görev ekleme, silme ve temizleme işlevleri
+- Modern kullanıcı arayüzü (CSS ile stillendirilmiş)
 
-## Expanding the ESLint configuration
+## Kullanılan Teknolojiler
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- Redux Toolkit
+- Vite
+- JavaScript
+- CSS
+
+## Kurulum
+
+```bash
+npm install
+npm run dev
